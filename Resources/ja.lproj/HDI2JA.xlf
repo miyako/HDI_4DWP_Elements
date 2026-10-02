@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Forms/HDI2/form.4DForm" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="HDI2_BtnCreateRange" resname="HDI2_BtnCreateRange">
+				<source>Create table range</source>
+				<target>テーブルレンジを作成</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnApplySettings" resname="HDI2_BtnApplySettings">
+				<source>Apply settings</source>
+				<target>設定を適用</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnAllElements" resname="HDI2_BtnAllElements">
+				<source>Get all elements</source>
+				<target>すべてのエレメントを取得</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnTableElements" resname="HDI2_BtnTableElements">
+				<source>Get table elements</source>
+				<target>テーブルエレメントを取得</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnParagraphElements" resname="HDI2_BtnParagraphElements">
+				<source>Get paragraph elements</source>
+				<target>段落エレメントを取得</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnPictureElements" resname="HDI2_BtnPictureElements">
+				<source>Get picture elements</source>
+				<target>ピクチャーエレメントを取得</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnColorizeTables" resname="HDI2_BtnColorizeTables">
+				<source>Colorize tables</source>
+				<target>テーブルに色を付ける</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnAlternateParagraphs" resname="HDI2_BtnAlternateParagraphs">
+				<source>Alternate paragraphs of the body</source>
+				<target>本文の段落を交互に装飾</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnFrameImages" resname="HDI2_BtnFrameImages">
+				<source>Frame images</source>
+				<target>画像に枠を付ける</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnManageHeader" resname="HDI2_BtnManageHeader">
+				<source>Manage header</source>
+				<target>ヘッダーを管理</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnManageFooter" resname="HDI2_BtnManageFooter">
+				<source>Manage footer</source>
+				<target>フッターを管理</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnSet" resname="HDI2_BtnSet">
+				<source>Set!</source>
+				<target>設定!</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
