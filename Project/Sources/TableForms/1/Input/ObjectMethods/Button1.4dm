@@ -1,6 +1,6 @@
-C_COLLECTION:C1488($col; $Names)
-C_LONGINT:C283($i; $n)
-C_OBJECT:C1216($table)
+var $col; $Names : Collection
+var $i; $n : Integer
+var $table : Object
 
 $col:=WP Get elements:C1550([INFO:1]Sample:5; wk type table:K81:222)
 

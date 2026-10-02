@@ -1,10 +1,6 @@
-
-C_COLLECTION:C1488($col)
-C_OBJECT:C1216($obj)
-C_OBJECT:C1216($body)
-
-C_LONGINT:C283($i; $n)
-
+var $col : Collection
+var $obj; $body : Object
+var $i; $n : Integer
 
 $col:=New collection:C1472
 

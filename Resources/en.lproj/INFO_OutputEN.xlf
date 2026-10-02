@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="TableForms/1/Output/form.4DForm" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="INFO_Output_HeaderPage" resname="INFO_Output_HeaderPage">
+				<source>Page:</source>
+				<target>Page:</target>
+			</trans-unit>
+			<trans-unit id="INFO_Output_HeaderTitle" resname="INFO_Output_HeaderTitle">
+				<source>Title</source>
+				<target>Title</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

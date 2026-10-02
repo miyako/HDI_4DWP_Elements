@@ -73,7 +73,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"WriteProArea1": {
 					"type": "write",
@@ -105,30 +106,30 @@
 					"top": 530,
 					"left": 596,
 					"width": 230,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Create table range",
+					"text": ":xliff:HDI2_BtnCreateRange",
 					"focusable": false,
 					"method": "ObjectMethods/btnCreateRange.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"btnApplySettings": {
 					"type": "button",
 					"top": 570,
 					"left": 596,
 					"width": 230,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Apply settings",
+					"text": ":xliff:HDI2_BtnApplySettings",
 					"focusable": false,
 					"method": "ObjectMethods/btnApplySettings.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				}
 			}
 		},
@@ -192,22 +193,23 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Button3": {
 					"type": "button",
 					"top": 550,
 					"left": 500,
 					"width": 200,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Get all elements",
+					"text": ":xliff:HDI2_BtnAllElements",
 					"focusable": false,
 					"method": "ObjectMethods/Button3.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"docElements": {
 					"type": "input",
@@ -226,52 +228,54 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic",
+					"fill": "automatic"
 				},
 				"Button4": {
 					"type": "button",
 					"top": 550,
 					"left": 720,
 					"width": 200,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Get table elements",
+					"text": ":xliff:HDI2_BtnTableElements",
 					"focusable": false,
 					"method": "ObjectMethods/Button4.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button5": {
 					"type": "button",
 					"top": 580,
 					"left": 500,
 					"width": 200,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Get paragraph elements",
+					"text": ":xliff:HDI2_BtnParagraphElements",
 					"focusable": false,
 					"method": "ObjectMethods/Button5.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button6": {
 					"type": "button",
 					"top": 580,
 					"left": 720,
 					"width": 200,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Get picture elements",
+					"text": ":xliff:HDI2_BtnPictureElements",
 					"focusable": false,
 					"method": "ObjectMethods/Button6.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				}
 			}
 		},
@@ -296,7 +300,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Rectangle1": {
 					"type": "rectangle",
@@ -316,15 +321,15 @@
 					"top": 580,
 					"left": 610,
 					"width": 200,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Colorize tables",
+					"text": ":xliff:HDI2_BtnColorizeTables",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"information4": {
 					"type": "input",
@@ -346,7 +351,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"WriteProArea2": {
 					"type": "write",
@@ -397,7 +403,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Rectangle2": {
 					"type": "rectangle",
@@ -442,15 +449,15 @@
 					"top": 580,
 					"left": 580,
 					"width": 260,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Alternate paragraphs of the body",
+					"text": ":xliff:HDI2_BtnAlternateParagraphs",
 					"focusable": false,
 					"method": "ObjectMethods/Button8.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				}
 			}
 		},
@@ -461,15 +468,15 @@
 					"top": 580,
 					"left": 585,
 					"width": 250,
-					"height": 22,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Frame images",
+					"text": ":xliff:HDI2_BtnFrameImages",
 					"focusable": false,
 					"method": "ObjectMethods/Button7.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"information5": {
 					"type": "input",
@@ -491,7 +498,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Rectangle3": {
 					"type": "rectangle",
@@ -555,7 +563,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Rectangle4": {
 					"type": "rectangle",
@@ -600,30 +609,30 @@
 					"top": 580,
 					"left": 500,
 					"width": 140,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Manage header",
+					"text": ":xliff:HDI2_BtnManageHeader",
 					"focusable": false,
 					"method": "ObjectMethods/Button9.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button10": {
 					"type": "button",
 					"top": 580,
 					"left": 780,
 					"width": 140,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Manage footer",
+					"text": ":xliff:HDI2_BtnManageFooter",
 					"focusable": false,
 					"method": "ObjectMethods/Button10.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				}
 			}
 		},
@@ -649,7 +658,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Rectangle5": {
 					"type": "rectangle",
@@ -722,15 +732,15 @@
 					"top": 580,
 					"left": 860,
 					"width": 60,
-					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"text": "Set!",
+					"text": ":xliff:HDI2_BtnSet",
 					"focusable": false,
 					"method": "ObjectMethods/Button11.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				}
 			}
 		}

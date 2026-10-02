@@ -1,5 +1,4 @@
-C_OBJECT:C1216($elem)
-C_TEXT:C284($color)
+var $elem : Object
 
 $elem:=WP Get element by ID:C1549(WParea; _elemIDs{_elemIDs})
 

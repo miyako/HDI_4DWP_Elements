@@ -191,7 +191,9 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic",
+					"fill": "automatic"
 				},
 				"Field1": {
 					"type": "input",
@@ -204,7 +206,9 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic",
+					"fill": "automatic"
 				},
 				"Description": {
 					"type": "input",
@@ -215,7 +219,7 @@
 					"sizingY": "grow",
 					"dataSource": "[INFO:1]Description:2",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"styledText": true,
 					"scrollbarVertical": "visible",
@@ -231,7 +235,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Text": {
 					"type": "text",
@@ -240,7 +245,8 @@
 					"width": 150,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Page number:"
+					"text": ":xliff:INFO_Input_LabelPageNumber",
+					"stroke": "automatic"
 				},
 				"Text1": {
 					"type": "text",
@@ -249,7 +255,8 @@
 					"width": 150,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Tab Title:"
+					"text": ":xliff:INFO_Input_LabelTabTitle",
+					"stroke": "automatic"
 				},
 				"WParea": {
 					"type": "write",
@@ -296,41 +303,41 @@
 					"top": 744,
 					"left": 511,
 					"width": 125,
-					"height": 21,
 					"sizingX": "move",
-					"text": "Insert table",
+					"text": ":xliff:INFO_Input_BtnInsertTable",
 					"focusable": false,
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button1": {
 					"type": "button",
 					"top": 746,
 					"left": 701,
 					"width": 235,
-					"height": 24,
-					"text": "Button",
+					"text": ":xliff:INFO_Input_BtnNameTables",
 					"focusable": false,
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Button2": {
 					"type": "button",
 					"top": 744,
 					"left": 336,
 					"width": 125,
-					"height": 21,
 					"sizingX": "move",
-					"text": "Insert 3 table",
+					"text": ":xliff:INFO_Input_BtnInsertThreeTables",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				}
 			}
 		}

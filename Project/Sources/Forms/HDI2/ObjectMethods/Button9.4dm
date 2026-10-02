@@ -1,7 +1,6 @@
-C_LONGINT:C283($i; $n)
-C_COLLECTION:C1488($colParagHead)
-C_OBJECT:C1216($paragraph)
-C_OBJECT:C1216($header)
+var $i; $n : Integer
+var $colParagHead : Collection
+var $paragraph; $header : Object
 
 $colParagHead:=New collection:C1472
 

@@ -1,11 +1,8 @@
-//%attributes = {}
-C_LONGINT:C283($1)
-C_LONGINT:C283($Page; $i; $n)
+//%attributes = {"invisible":true}
+#DECLARE($page : Integer)
 
-C_COLLECTION:C1488($col)
-C_OBJECT:C1216($table)
-
-$Page:=$1
+var $i; $n : Integer
+var $col : Collection
 
 OBJECT SET ENABLED:C1123(*; "btnApplySettings"; False:C215)
 OBJECT SET VISIBLE:C603(*; "docElements"; False:C215)

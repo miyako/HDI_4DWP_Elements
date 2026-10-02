@@ -1,5 +1,3 @@
-C_OBJECT:C1216(tableRange)
-
 If (tableRange#Null:C1517)
 	
 	WP SET ATTRIBUTES:C1342(tableRange; wk border style:K81:29; wk solid:K81:115; wk border color:K81:34; "Blue"; wk border width:K81:39; "3px")
@@ -14,7 +12,7 @@ If (tableRange#Null:C1517)
 	
 Else 
 	
-	ALERT:C41("Create table range first !")
+	ALERT:C41(Localized string("AlertCreateRangeFirst"))
 	
 End if 
 

@@ -1,7 +1,5 @@
-C_LONGINT:C283($i)
-C_OBJECT:C1216($range)
-C_OBJECT:C1216($table)
-C_OBJECT:C1216($row)
+var $i : Integer
+var $range; $table; $row : Object
 
 [INFO:1]Sample:5:=WP New:C1317
 

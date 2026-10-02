@@ -1,10 +1,7 @@
-
-C_LONGINT:C283($i; $n)
-C_COLLECTION:C1488($colPictures)
-C_OBJECT:C1216($pictObject)
-C_OBJECT:C1216($body)
-C_PICTURE:C286($image)
-C_LONGINT:C283($width; $height)
+var $i; $n; $width; $height : Integer
+var $colPictures : Collection
+var $pictObject; $body : Object
+var $image : Picture
 
 $body:=WP Get body:C1516([INFO:1]Sample:5)
 $colPictures:=WP Get elements:C1550($body; wk type image:K81:192)

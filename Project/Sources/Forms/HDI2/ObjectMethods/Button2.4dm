@@ -1,12 +1,7 @@
-
-C_COLLECTION:C1488($colTables)
-C_OBJECT:C1216($table; $row; $cell; $lastCell)
-C_LONGINT:C283($table_i; $row_i; $n)
-C_COLLECTION:C1488($rows)
-C_LONGINT:C283($cellCount)
-
-C_TEXT:C284($grey; $lightGrey1; $lightGrey2)
-C_TEXT:C284($colTablesColor; $colTablesColorFooter)
+var $colTables; $rows : Collection
+var $table; $row; $lastCell : Object
+var $table_i; $row_i; $n; $cellCount : Integer
+var $grey; $lightGrey1; $lightGrey2; $colTablesColor; $colTablesColorFooter : Text
 
 $colTables:=WP Get elements:C1550(WParea; wk type table:K81:222)
 

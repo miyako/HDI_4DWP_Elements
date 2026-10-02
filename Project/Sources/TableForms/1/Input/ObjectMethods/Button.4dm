@@ -1,6 +1,4 @@
-C_OBJECT:C1216($range)
-C_OBJECT:C1216($table)
-C_OBJECT:C1216($row)
+var $range; $table; $row : Object
 
 $range:=WP Selection range:C1340([INFO:1]Sample:5)
 
