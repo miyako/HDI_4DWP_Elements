@@ -1,0 +1,33 @@
+{
+	"tables": {
+		"INFO": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "0",
+				"top": "0",
+				"width": "120",
+				"height": "246.83984375"
+			},
+			"displayable_fields_count": 9,
+			"fields": {
+				"PageNumber": {
+					"position": 2
+				},
+				"TabTitle": {
+					"position": 3
+				},
+				"Description": {
+					"position": 4
+				},
+				"ID": {
+					"position": 1
+				}
+			}
+		}
+	}
+}
